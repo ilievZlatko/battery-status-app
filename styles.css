@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #333;
+}
+
+.battery-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+span {
+    text-align: center;
+}
+
+#battery {
+    font-size: 150px;
+    padding: 0;
+    margin: 0 auto;
+    line-height: 1;
+    text-shadow: 0 4px 6px rgba(0,0,0,0.4);
+}
+
+#battery, #level {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#level {
+    font-size: 26px;
+    font-weight: 400;
+    top: -91px;
+    left: 0;
+    text-shadow: 0 2px 0px rgba(0,0,0,0.6);
+}
+
+.ion-battery-full {
+    color: #27ae60;
+}
+
+.ion-battery-half {
+    color: #f39c12;
+}
+
+.ion-battery-low {
+    color: #e74c3c;
+}
+
+.ion-battery-empty {
+    color: #c0392b;
+}
+
+.ion-battery-charging {
+    color: #8e44ad;
+}
